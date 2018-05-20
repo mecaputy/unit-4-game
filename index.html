@@ -24,28 +24,30 @@
             <br><br>
         The value of each crystal is hidden from you until you click on it.
             <br><br>
-        Each time when the game starte, the game will change the vaules of each crystal.</p>
+        Each time when the game start, the game will change the vaules of each crystal.</p>
     </div>
 
     <div class="row">
-        <div class="col-md-8" id="randomNumber"></div>
+        <div class="col-md-7" id="randomNumberBox">
+            <h3>Random Number: <br><span  id="randomNumber"></span></h3>
+        </div>
 
-        <div class="col-md-4" id="scoreBoard">
-            <h3>Wins: <span id="wins"></span></h3>
-            <h3>Losses: <span id="losses"></span></h3>
+        <div class="col-md-3" id="scoreBoard">
+            <h4>Wins: <span id="wins"></span></h4>
+            <h4>Losses: <span id="losses"></span></h4>
         </div>
     </div>
 
-    <div class="row" class="crystals">
-        <div type="button"
-        value="1" class="col-md-3" id="crystal1" >Crystal 1</div>
-        <div type="button" value="2" class="col-md-3" id="crystal2">Crystal 2</div>
-        <div type="button" value="3" class="col-md-3" id="crystal3">Crystal 3</div>
-        <div type="button" value="4" class="col-md-3" id="crystal4">Crystal 4</div>
+    <div class="row" id="crystals">
+        <div 
+        value="1" class="col-md-3" id="crystal1" ><img src="./assets/images/orangeGem.png"></div>
+        <div value="2" class="col-md-3" id="crystal2"><img src="./assets/images/greengemfinal.png"></div>
+        <div value="3" class="col-md-3" id="crystal3"><img src="./assets/images/yellowgemfinal.png"></div>
+        <div  value="4" class="col-md-3" id="crystal4"><img src="./assets/images/bluegemfinal.png"></div>
     </div>
 
     <div class="row">
-        <div class="col-md-12" id="total-score"></div>
+        <div class="col-md-11"id="total-score-box" ><h3>Your total score is: <br><span  id="total-score"></span></h3></div>
     </div>
    </div>
    
