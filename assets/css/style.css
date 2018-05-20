@@ -1,0 +1,54 @@
+body {
+    background-color: violet;
+}
+#container {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    
+}
+
+#title {
+    background-color: orange;
+    padding: 5px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 160px;
+}
+
+#randomNumber {
+    background-color: green;
+    height: 100px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#scoreBoard {
+    background-color: aqua;
+    height: 100px;
+    margin: 0 auto; 
+    padding: 5px;
+}
+
+#rules {
+    background-color: blanchedalmond;
+    padding: 20px 10px;
+    color: green;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.crystals {
+    height: 75px;
+}
+
+#total-score {
+    background-color: green;
+    margin: 0 auto;
+    padding: 20px;
+    height: 150px;
+}
+#crystal1 {
+    background-image: url("/Users/martinacaputy/apps/unit-4-game/assets/images/blue gem.png");
+}

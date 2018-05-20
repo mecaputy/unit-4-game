@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cyrstal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+   
+</head>
+<body>
+ <div id="container">
+    <div class="row" class="col-md-12" id="title"><h1>Crystal Collector!</h1></div>
+
+    <div class="row" class="col-md-12"  id="rules">
+        <p>You will be given a random number at the start of the game.
+            <br><br>
+        There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+            <br><br>
+        You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+            <br><br>
+        The value of each crystal is hidden from you until you click on it.
+            <br><br>
+        Each time when the game starte, the game will change the vaules of each crystal.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8" id="randomNumber"></div>
+
+        <div class="col-md-4" id="scoreBoard">
+            <h3>Wins: <span id="wins"></span></h3>
+            <h3>Losses: <span id="losses"></span></h3>
+        </div>
+    </div>
+
+    <div class="row" class="crystals">
+        <div type="button"
+        value="1" class="col-md-3" id="crystal1" >Crystal 1</div>
+        <div type="button" value="2" class="col-md-3" id="crystal2">Crystal 2</div>
+        <div type="button" value="3" class="col-md-3" id="crystal3">Crystal 3</div>
+        <div type="button" value="4" class="col-md-3" id="crystal4">Crystal 4</div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12" id="total-score"></div>
+    </div>
+   </div>
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./assets/javascript/game.js"></script> 
+</body>
+</html>
