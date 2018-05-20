@@ -1,5 +1,6 @@
 body {
     background: url("/Users/martinacaputy/apps/unit-4-game/assets/images/congruent_pentagon/congruent_pentagon.png");
+    font-family: Georgia, Times, 'Times New Roman', serif;
     
 }
 #container {
@@ -20,6 +21,7 @@ body {
 
 #randomNumberBox {
     background-color: lemonchiffon;
+    color: seagreen;
     height: 100px;
     margin: 10px auto; 
     padding: 5px;
@@ -28,6 +30,7 @@ body {
 
 #scoreBoard {
     background-color: lightcyan;
+    color: seagreen;
     height: 100px;
     margin: 10px auto; 
     padding: 5px;
@@ -38,7 +41,7 @@ body {
 #rules {
     background-color:blanchedalmond;
     padding: 20px 10px;
-    color: green;
+    color: seagreen;
     margin: 10px;
     margin-right: 10px;
     text-align: center;
@@ -52,6 +55,7 @@ body {
 
 #total-score-box {
     background-color: mediumturquoise;
+    color: floralwhite;
     margin: 10px;
     margin-left: 30px;
     height: 100px;
