@@ -38,12 +38,14 @@ $(document).ready(function(){
     //function to add wins and losses** COME BACK TO THIS**
     function youWin(){
         wins++;
+        alert("You win!")
         $("#wins").text(wins);
         reset();
     }
 
     function youLose(){
         losses++;
+        alert("You lose!")
         $("#losses").text(losses);
         reset();
     }
